@@ -157,7 +157,26 @@ const ATTRACTION_NAME_MAP = {
 "Harry Potter and the Forbidden Journey": "ハリー・ポッター・アンド・ザ・フォービドゥン・ジャーニー",
 "Flight of the Hippogriff": "フライト・オブ・ザ・ヒッポグリフ",
 "Despicable Me Minion Mayhem": "ミニオン・ハチャメチャ・ライド",
-"Hollywood Dream -The Ride - Backdrop-": "ハリウッド・ドリーム・ザ・ライド ～バックドロップ～"
+"Hollywood Dream -The Ride - Backdrop-": "ハリウッド・ドリーム・ザ・ライド ～バックドロップ～",
+"Detective Conan: The World": "名探偵コナン・ザ・ワールド",
+"Freeze Ray Sliders": "ミニオン・ハチャメチャ・アイス",
+"Hello Kitty's Cupcake Dream": "ハローキティのカップケーキ・ドリーム",
+"Hello Kitty's Ribbon Collection": "ハローキティのリボン・コレクション",
+"Hollywood Dream - The Ride": "ハリウッド・ドリーム・ザ・ライド",
+"Illumination's Villain-con Minion Blast": "ミニオン・ハチャメチャ・ミッション ～大悪党への道～",
+"JAWS": "ジョーズ",
+"Jurassic Park - The Ride in the Dark": "ジュラシック・パーク・ザ・ライド ～イン・ザ・ダーク～",
+"Jurassic Park – The Ride": "ジュラシック・パーク・ザ・ライド",
+"Ollivanders": "オリバンダーの店",
+"Playing with Curious George": "プレイング・ウィズおさるのジョージ",
+"Sadako's Curse: Dark Horror Ride": "貞子の呪い ～ダーク・ホラー・ライド～",
+"Sesame Street 4-D Movie Magic": "セサミストリート 4-D ムービーマジック",
+"Shrek’s 4-D Adventure": "シュレック 4-D アドベンチャー",
+"Shrek's 4-D Adventure": "シュレック 4-D アドベンチャー",
+"SING ON TOUR": "シング・オン・ツアー",
+"Snoopy's Flying Ace Adventure": "スヌーピーのフライング・エース・アドベンチャー",
+"Space Fantasy – The Ride": "スペース・ファンタジー・ザ・ライド",
+"The Flying Snoopy": "フライング・スヌーピー"
 };
 
 function getJapaneseAttractionName(englishName) {
