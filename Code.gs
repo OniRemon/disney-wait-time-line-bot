@@ -102,6 +102,10 @@ function normalizeCommand(text) {
     return 'sea';
   }
 
+  if (['usj', 'ｕｓｊ', 'ユニバ', 'ユニバーサル・スタジオ・ジャパン'].includes(value)) {
+    return 'usj';
+  }
+
   if (
     value === '両方' ||
     value === '待ち時間' ||
@@ -228,6 +232,10 @@ function createReplyMessages(command, userId) {
     return [
       createParkReplyMessage(PARKS.sea)
     ];
+  }
+
+  if (command === 'usj') {
+    return [createParkReplyMessage(PARKS.usj)];
   }
 
   if (command === 'both') {
@@ -399,7 +407,8 @@ function createReplyMessages(command, userId) {
         '【待ち時間】',
         '・ランド',
         '・シー',
-        '・両方',
+        '・両方（ランド・シー）',
+        '・USJ（ユニバ）',
         '',
         '【お気に入り】',
         '・お気に入り',

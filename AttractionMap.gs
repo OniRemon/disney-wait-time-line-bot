@@ -147,7 +147,17 @@ const ATTRACTION_NAME_MAP = {
   "アリエルのプレイグラウンド",
 
 "Fortress Explorations":
-  "フォートレス・エクスプロレーション"
+  "フォートレス・エクスプロレーション",
+
+// ユニバーサル・スタジオ・ジャパン
+"Mario Kart: Koopa's Challenge": "マリオカート ～クッパの挑戦状～",
+"Yoshi's Adventure": "ヨッシー・アドベンチャー",
+"Mine Cart Madness": "ドンキーコングのクレイジー・トロッコ",
+"The Flying Dinosaur": "ザ・フライング・ダイナソー",
+"Harry Potter and the Forbidden Journey": "ハリー・ポッター・アンド・ザ・フォービドゥン・ジャーニー",
+"Flight of the Hippogriff": "フライト・オブ・ザ・ヒッポグリフ",
+"Despicable Me Minion Mayhem": "ミニオン・ハチャメチャ・ライド",
+"Hollywood Dream -The Ride - Backdrop-": "ハリウッド・ドリーム・ザ・ライド ～バックドロップ～"
 };
 
 function getJapaneseAttractionName(englishName) {

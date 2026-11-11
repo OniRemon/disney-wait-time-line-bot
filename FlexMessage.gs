@@ -108,8 +108,8 @@ function createWaitTimeBubble(
   });
 
   const headerColor =
-    park.id === PARKS.land.id
-      ? '#367DCB'
+    park.id === PARKS.usj.id ? '#6045A1'
+      : park.id === PARKS.land.id ? '#367DCB'
       : '#168C91';
 
   return {
@@ -169,9 +169,15 @@ function createWaitTimeBubble(
         },
         {
           type: 'text',
-          text: 'Data: Queue-Times.com',
-          size: 'xxs',
-          color: '#AAAAAA',
+          text: 'Powered by Queue-Times.com',
+          action: {
+            type: 'uri',
+            label: 'Powered by Queue-Times.com',
+            uri: 'https://queue-times.com/'
+          },
+          size: 'sm',
+          color: '#245E99',
+          decoration: 'underline',
           align: 'center',
           margin: 'sm'
         }

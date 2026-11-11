@@ -9,5 +9,9 @@ const PARKS = {
   sea: {
     label: '東京ディズニーシー',
     id: 275
+  },
+  usj: {
+    label: 'ユニバーサル・スタジオ・ジャパン',
+    id: 284
   }
 };
